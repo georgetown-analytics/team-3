@@ -1,0 +1,18 @@
+# DotEnv configuration
+.env
+
+# Database
+*.db
+*.rdb
+
+# Pycharm
+.idea
+
+# VS Code
+.vscode/
+
+# Mac OS-specific storage files
+.DS_Store
+
+# large files
+data/
