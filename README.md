@@ -1,8 +1,7 @@
-# team-3
+# Altar Eagles 
 Cohort 28 Capstone Project for the Certificate of Data Science at Georgetown University School of Continuing Studies.
 
-##### Airline Efficiency
-==============================
+### Airline Efficiency
 
 Data analysis to help airlines achieve greater efficiency
 
