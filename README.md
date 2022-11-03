@@ -22,3 +22,25 @@ Project Organization
 
 
 --------
+
+| Notebook         | Purpose                         | Description |
+|------------------|---------------------------------|-------------|
+| eda1_flight_data | Exploratory Data Analysis (EDA) | 1           |
+| eda2_flight_data | Exploratory Data Analysis (EDA) | 2           |
+| lorem            | ipsum                           | 3           |
+|                  | empty outside cells             |             |
+| skip             |                                 | 5           |
+| six              | Morbi purus                     | 6           |
+
+
+
+## Repository
+
+bitbucket 
+git push --set-upstream georgetown-origin
+
+## Line endings
+https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings
+https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+
+git config --global core.autocrlf true
