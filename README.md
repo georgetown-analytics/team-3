@@ -1,4 +1,4 @@
-# Altar Eagles 
+# Alter Eagles 
 Cohort 28 Capstone Project for the Certificate of Data Science at Georgetown University School of Continuing Studies.
 
 ### Airline Efficiency
@@ -44,3 +44,4 @@ https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-
 https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
 
 git config --global core.autocrlf true
+git push --all https://github.com/georgetown-analytics/team-3.git
