@@ -14,13 +14,14 @@ Project Organization
 
 --------
 
-| Notebook              | Purpose                   | Description      |
-|-----------------------|---------------------------|------------------|
-| ingestion_flight_data | Data ingestion            | Loading Raw data |
-| eda1_flight_data      | Exploratory Data Analysis |                  |
-| eda2_flight_data      | Exploratory Data Analysis |                  |
-| eda3_flight_data      | Exploratory Data Analysis |                  |
-|                       |                           |                  |
-|                       |                           |                  |
-|                       |                           |                  |
+| Notebook              | Purpose                   | Description         |
+|-----------------------|---------------------------|---------------------|
+| ingestion_flight_data | Data ingestion            | Loading Raw data    |
+| eda1_flight_data      | Exploratory Data Analysis | Munging & Wrangling |
+| eda2_flight_data      | Exploratory Data Analysis | Munging & Wrangling |
+| eda3_flight_data      | Exploratory Data Analysis | Munging & Wrangling |
+|                       |                           |                     |
+|                       |                           |                     |
+|                       |                           |                     |
+
 
