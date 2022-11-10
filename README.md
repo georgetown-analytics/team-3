@@ -14,12 +14,13 @@ Project Organization
 
 --------
 
-| Notebook         | Purpose                         | Description |
-|------------------|---------------------------------|-------------|
-| eda1_flight_data | Exploratory Data Analysis (EDA) | 1           |
-| eda2_flight_data | Exploratory Data Analysis (EDA) | 2           |
-| lorem            | ipsum                           | 3           |
-|                  | empty outside cells             |             |
-| skip             |                                 | 5           |
-| six              | Morbi purus                     | 6           |
+| Notebook              | Purpose                   | Description      |
+|-----------------------|---------------------------|------------------|
+| ingestion_flight_data | Data ingestion            | Loading Raw data |
+| eda1_flight_data      | Exploratory Data Analysis |                  |
+| eda2_flight_data      | Exploratory Data Analysis |                  |
+| eda3_flight_data      | Exploratory Data Analysis |                  |
+|                       |                           |                  |
+|                       |                           |                  |
+|                       |                           |                  |
 
