@@ -1,7 +1,7 @@
 # Aviation Analytics
 Cohort 28 Capstone Project for the Certificate of Data Science at Georgetown University School of Continuing Studies.
 
-### Airline Efficiency
+### Airline Operations Efficiency
 
 Data analysis to help airlines achieve greater efficiency
 
