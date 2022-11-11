@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: "postgres"
+    ports:
+      - "5432:5432"
+    networks:
+      - capstone
+    env_file:
+      - .env/dev.env
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: 500M
+        reservations:
+          cpus: "1"
+          memory: 500M
+
+networks:
+  web:
