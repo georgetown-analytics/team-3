@@ -17,4 +17,4 @@ services:
           memory: 500M
 
 networks:
-  web:
+  capstone:
