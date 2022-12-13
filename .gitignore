@@ -16,5 +16,6 @@
 
 # large files
 data/
+dump/
 
 README_DEV.md
