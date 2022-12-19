@@ -17,5 +17,8 @@
 # large files
 data/
 dump/
+ml_model/
 
 README_DEV.md
+
+*.pickle 
