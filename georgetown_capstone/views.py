@@ -28,6 +28,8 @@ def results(request):
     inputParams.append(request.GET['TotalAddGTime'])
 
     result = model.predict([inputParams])
+    
+    classification = result[0]
 
     return render(request, "results.html", {"result": result,"inputParams": inputParams})
 
