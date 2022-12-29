@@ -114,15 +114,88 @@
                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                   <h2 class="h2">Cohort 28 Capstone Project 2022</h2>
                </div>
-               <div class="center">
+               <div>
                   <h1 style="color:rgb(44, 44, 90); font-weight: 700;">
                      <i class="fa fa-plane" aria-hidden="true"></i>  Flight Delay Prediction
                   </h1>
-                  <p style="color:rgb(51, 51, 83); font-weight: 700;">
+                  <div>
+                  <h3 style="color:rgb(51, 51, 83); font-weight: 700;">
                      Results
-                  </p>
-                  <h1>Entered data is : {{inputParams}}</h1>
-                  <h1>Flight status is : {{result}}</h1>
+                  </h3>
+                  {% comment %} <h1>Prediction Input : {{inputParams}}</h1> {% endcomment %}
+                  <h5>Prediction Input :</h5>
+                  <div>
+                     <div class="form-group pt-2">Flight Number: <span>{{Flight_Number}}</span></div>
+                  </div>
+                  <div>
+                     <div class="form-group pt-2">OriginAirportID: <span>{{OriginAirportID}}</span></div>
+                  </div>
+                  <div>
+                     <div class="form-group pt-2">DestAirportID: <span>{{DestAirportID}}</span></div>
+                  </div>
+                  <div>
+                     <div class="form-group pt-2">CRSDepTime: <span>{{CRSDepTime}}</span></div>
+                  </div>
+                  <div>
+                     <div class="form-group pt-2">DepTime: <span>{{DepTime}}</span></div>
+                  </div>
+                  <div>
+                     <div class="form-group pt-2">TaxiOut: <span>{{TaxiOut}}</span></div>
+                  </div>
+                  <div>
+                     <div class="form-group pt-2">WheelsOn: <span>{{WheelsOn}}</span></div>
+                  </div>
+                  <div>
+                     <div class="form-group pt-2">TaxiIn: <span>{{TaxiIn}}</span></div>
+                  </div>
+                  <div>
+                     <div class="form-group pt-2">CRSArrTime: <span>{{CRSArrTime}}</span></div>
+                  </div>
+                  <div>
+                     <div class="form-group pt-2">AirTime: <span>{{AirTime}}</span></div>
+                  </div>
+                  <div>
+                     <div class="form-group pt-2">TotalAddGTime: <span>{{TotalAddGTime}}</span></div>
+                  </div>
+
+{% comment %}                   <table class="table table-striped">
+                     <thead>
+                       <tr>
+                         <th scope="col">#</th>
+                         <th scope="col">FlightNumber</th>
+                         <th scope="col">OriginAirportID</th>
+                         <th scope="col">DestAirportID</th>
+                         <th scope="col">CRSDepTime</th>
+                         <th scope="col">DepTime</th>
+                         <th scope="col">TaxiOut</th>
+                         <th scope="col">WheelsOn</th>
+                         <th scope="col">TaxiIn</th>
+                         <th scope="col">CRSArrTime</th>
+                         <th scope="col">AirTime</th>
+                         <th scope="col">TotalAddGTime</th>
+                       </tr>
+                     </thead>
+                     <tbody>
+                       <tr>
+                         <th scope="row">1</th>
+                         <td>{{Flight_Number}}</td>
+                         <td>{{OriginAirportID}}</td>
+                         <td>{{DestAirportID}}</td>
+                         <td>{{CRSDepTime}}</td>
+                         <td>{{DepTime}}</td>
+                         <td>{{TaxiOut}}</td>
+                         <td>{{WheelsOn}}</td>
+                         <td>{{TaxiIn}}</td>
+                         <td>{{CRSArrTime}}</td>
+                         <td>{{AirTime}}</td>
+                         <td>{{TotalAddGTime}}</td>
+                       </tr>
+                     </tbody>
+                   </table> {% endcomment %}
+                   <div class="form-group pt-2">
+                  <h5>Flight Prediction Classification : <span> {{result}}</span></h5>
+                   </div>
+                  </div>
                   <a href="{% url 'home' %}">return to Home</a>
                </div>
             </main>

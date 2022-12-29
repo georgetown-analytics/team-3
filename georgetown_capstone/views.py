@@ -6,6 +6,7 @@ import joblib
 
 model_pkl = "flight-adaboost-classifier.pickle"
 
+
 def home(request):
     return render(request, "predict.html", {"title": "Cohort 28 Capstone Project"})
 
@@ -14,6 +15,18 @@ def results(request):
     model = joblib.load(model_pkl)
 
     inputParams = []
+
+    Flight_Number = request.GET['Flight_Number']
+    OriginAirportID = request.GET['OriginAirportID']
+    DestAirportID = request.GET['DestAirportID']
+    CRSDepTime = request.GET['CRSDepTime']
+    DepTime = request.GET['DepTime']
+    TaxiOut = request.GET['TaxiOut']
+    WheelsOn = request.GET['WheelsOn']
+    TaxiIn = request.GET['TaxiIn']
+    CRSArrTime = request.GET['CRSArrTime']
+    AirTime = request.GET['AirTime']
+    TotalAddGTime = request.GET['TotalAddGTime']
 
     inputParams.append(request.GET['Flight_Number'])
     inputParams.append(request.GET['OriginAirportID'])
@@ -31,12 +44,17 @@ def results(request):
     
     classification = result[0]
 
-    return render(request, "results.html", {"result": result,"inputParams": inputParams})
-
-                 
-              
-
-
-
-
-
+    return render(request, "results.html", {"result": classification,
+                                            "inputParams": inputParams,
+                                            "Flight_Number": Flight_Number,
+                                            "OriginAirportID": OriginAirportID,
+                                            "DestAirportID": DestAirportID,
+                                            "CRSDepTime": CRSDepTime,
+                                            "DepTime": DepTime,
+                                            "TaxiOut": TaxiOut,
+                                            "WheelsOn": WheelsOn,
+                                            "TaxiIn": TaxiIn,
+                                            "CRSArrTime": CRSArrTime,
+                                            "AirTime": AirTime,
+                                            "TotalAddGTime": TotalAddGTime
+                                            })
