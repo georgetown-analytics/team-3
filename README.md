@@ -36,6 +36,7 @@ Data analysis to help airlines achieve greater efficiency
 | data        | data filesystem storage | contains model data in csv format |
 
 **Files too big to fit on GitHub
+--------
 
 #### Data Preprocessing & Model Building
 
@@ -46,6 +47,7 @@ Data analysis to help airlines achieve greater efficiency
 | STAT           | Statistical Analysis      | Computation & Analysis                      |
 | ML_MODELLING   | Model Training            | Modeling & Application                      |
 
+--------
 
 #### Modeling Deployment
 
@@ -53,6 +55,7 @@ Data analysis to help airlines achieve greater efficiency
 | ----------------------------------------- | ------------------------- | -------------- |
 | georgetown_analytics, georgetown_capstone | Visualisation & Reporting | Django Project |
 
+--------
 
 #### Project Submisssion
 
@@ -60,6 +63,7 @@ Data analysis to help airlines achieve greater efficiency
 | --------------------- | ----------------------- | -------------------------- |
 | docs/final_submission | final submission folder | final paper & presentation |
 
+--------
 
 
 
