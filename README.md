@@ -4,7 +4,7 @@ Cohort 28 Capstone Project for the Certificate of Data Science at Georgetown Uni
 ### Flight Status Prediction 
 Data analysis to help airlines achieve greater efficiency
 
-Project Organization
+#### Project Organization
 ------------
 ```
 ├───flight_model
@@ -29,7 +29,7 @@ Project Organization
     
 
 --------
-## Data
+#### Data
 
 | directories | Purpose                 | Description                       |
 | ----------- | ----------------------- | --------------------------------- |
@@ -37,7 +37,7 @@ Project Organization
 
 **Files too big to fit on GitHub
 
-## Data Preprocessing & Model Building
+#### Data Preprocessing & Model Building
 
 | notebooks      | Purpose                   | Description                                 |
 | -------------- | ------------------------- | ------------------------------------------- |
@@ -47,14 +47,14 @@ Project Organization
 | ML_MODELLING   | Model Training            | Modeling & Application                      |
 
 
-## Modeling Deployment
+#### Modeling Deployment
 
 | directories                               | Purpose                   | Description    |
 | ----------------------------------------- | ------------------------- | -------------- |
 | georgetown_analytics, georgetown_capstone | Visualisation & Reporting | Django Project |
 
 
-## Project Submisssion
+#### Project Submisssion
 
 | directories           | Purpose                 | Description                |
 | --------------------- | ----------------------- | -------------------------- |
