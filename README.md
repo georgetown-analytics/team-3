@@ -6,21 +6,34 @@ Data analysis to help airlines achieve greater efficiency
 
 Project Organization
 ------------
-
-//TODO
+├───flight_model
+│   ├───data
+│   ├───docs
+│   │   ├───final_submission
+│   │   └───flight_features
+│   └───notebooks
+│       ├───DATA_INGESTION
+│       ├───EDA
+│       │   └───FeatureEngineering
+│       ├───ML_MODELLING
+│       │   ├───AdaBoost
+│       │   ├───KNeighbors
+│       │   ├───RandomForest
+│       │   ├───SupportVectorMachine
+│       │   └───XGBoost
+│       └───STAT
+├───georgetown_analytics
+└───georgetown_capstone
     
-
 
 --------
 
-| Notebook              | Purpose                   | Description                                 |
-|-----------------------|---------------------------|---------------------------------------------|
-| ingestion_flight_data | Data ingestion            | Loading Raw data                            |
-| eda_flight_data       | Exploratory Data Analysis | Munging & Wrangling, Computation & Analysis |
-| stat_flight_data      | Statistical Analysis      | Computation & Analysis                      |
-| ml_flight_data        | Model Training            | Modeling & Application                      |
-|                       |                           |                                             |
-|                       |                           |                                             |
-|                       |                           |                                             |
+| notebooks      | Purpose                   | Description                                 |
+| -------------- | ------------------------- | ------------------------------------------- |
+| data_digestion | Data ingestion            | Loading Raw data                            |
+| EDA            | Exploratory Data Analysis | Munging & Wrangling, Computation & Analysis |
+| STAT           | Statistical Analysis      | Computation & Analysis                      |
+| ML_MODELLING   | Model Training            | Modeling & Application                      |
+
 
 
