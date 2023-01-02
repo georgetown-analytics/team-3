@@ -75,3 +75,8 @@ def results(request):
                                             "TotalAddGTime": TotalAddGTime,
                                             "dataset": dataset
                                             })
+
+def view_results(request):
+    # Submit prediction and show all
+    data = {"dataset": PredictionResult.objects.all()}
+    return render(request, "database.html", data)
