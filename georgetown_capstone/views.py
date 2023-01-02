@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 import joblib
+from .models import PredictionResult
 
 # request handler
 
@@ -41,8 +42,23 @@ def results(request):
     inputParams.append(request.GET['TotalAddGTime'])
 
     result = model.predict([inputParams])
-    
+
     classification = result[0]
+
+    PredictionResult.objects.create(Flight_Number=Flight_Number,
+                                    OriginAirportID=OriginAirportID,
+                                    DestAirportID=DestAirportID,
+                                    CRSDepTime=CRSDepTime,
+                                    DepTime=DepTime,
+                                    TaxiOut=TaxiOut,
+                                    WheelsOn=WheelsOn,
+                                    TaxiIn=TaxiIn,
+                                    CRSArrTime=CRSArrTime,
+                                    AirTime=AirTime,
+                                    TotalAddGTime=TotalAddGTime,
+                                    classification=classification
+                                    )
+    dataset = PredictionResult.objects.all()
 
     return render(request, "results.html", {"result": classification,
                                             "inputParams": inputParams,
@@ -56,5 +72,6 @@ def results(request):
                                             "TaxiIn": TaxiIn,
                                             "CRSArrTime": CRSArrTime,
                                             "AirTime": AirTime,
-                                            "TotalAddGTime": TotalAddGTime
+                                            "TotalAddGTime": TotalAddGTime,
+                                            "dataset": dataset
                                             })

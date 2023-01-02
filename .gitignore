@@ -22,3 +22,7 @@ ml_model/
 README_DEV.md
 
 *.pickle 
+
+*.sqlite3
+migrations/
+db.sqlite3
