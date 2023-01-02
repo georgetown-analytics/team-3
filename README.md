@@ -29,6 +29,14 @@ Project Organization
     
 
 --------
+## Data
+
+| directories | Purpose                 | Description                       |
+| ----------- | ----------------------- | --------------------------------- |
+| data        | data filesystem storage | contains model data in csv format |
+
+**Files too big to fit on GitHub
+
 ## Data Preprocessing & Model Building
 
 | notebooks      | Purpose                   | Description                                 |
@@ -41,9 +49,18 @@ Project Organization
 
 ## Modeling Deployment
 
-| directories                              | Purpose                   | Description    |
-| ---------------------------------------- | ------------------------- | -------------- |
-| georgetown_analytics, georgetown_capston | Visualisation & Reporting | Django Project |
+| directories                               | Purpose                   | Description    |
+| ----------------------------------------- | ------------------------- | -------------- |
+| georgetown_analytics, georgetown_capstone | Visualisation & Reporting | Django Project |
+
+
+## Project Submisssion
+
+| directories           | Purpose                 | Description                |
+| --------------------- | ----------------------- | -------------------------- |
+| docs/final_submission | final submission folder | final paper & presentation |
+
+
 
 
 
