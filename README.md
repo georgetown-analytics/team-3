@@ -29,6 +29,7 @@ Project Organization
     
 
 --------
+## Data Preprocessing & Model Building
 
 | notebooks      | Purpose                   | Description                                 |
 | -------------- | ------------------------- | ------------------------------------------- |
@@ -36,6 +37,13 @@ Project Organization
 | EDA            | Exploratory Data Analysis | Munging & Wrangling, Computation & Analysis |
 | STAT           | Statistical Analysis      | Computation & Analysis                      |
 | ML_MODELLING   | Model Training            | Modeling & Application                      |
+
+
+## Modeling Deployment
+
+| directories                              | Purpose                   | Description    |
+| ---------------------------------------- | ------------------------- | -------------- |
+| georgetown_analytics, georgetown_capston | Visualisation & Reporting | Django Project |
 
 
 
