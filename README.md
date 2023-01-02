@@ -41,7 +41,7 @@ Project Organization
 
 | notebooks      | Purpose                   | Description                                 |
 | -------------- | ------------------------- | ------------------------------------------- |
-| data_digestion | Data ingestion            | Loading Raw data                            |
+| DATA_INGESTION | Data ingestion            | Loading Raw data                            |
 | EDA            | Exploratory Data Analysis | Munging & Wrangling, Computation & Analysis |
 | STAT           | Statistical Analysis      | Computation & Analysis                      |
 | ML_MODELLING   | Model Training            | Modeling & Application                      |
