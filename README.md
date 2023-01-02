@@ -6,6 +6,7 @@ Data analysis to help airlines achieve greater efficiency
 
 Project Organization
 ------------
+```
 ├───flight_model
 │   ├───data
 │   ├───docs
@@ -24,6 +25,7 @@ Project Organization
 │       └───STAT
 ├───georgetown_analytics
 └───georgetown_capstone
+```
     
 
 --------
